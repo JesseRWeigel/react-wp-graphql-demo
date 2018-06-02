@@ -44,7 +44,7 @@ class Home extends Component {
                         __html: post.node.title,
                       }}
                     />
-                    <p
+                    <span
                       dangerouslySetInnerHTML={{
                         __html: post.node.content,
                       }}
